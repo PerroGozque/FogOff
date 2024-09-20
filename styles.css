@@ -1,0 +1,119 @@
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: #0c4d6f;
+    margin: 0;
+    padding: 0;
+    background-color: #89baff;
+    background-image: url(./images/BG-Image.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1,h3,p{
+    margin: 0;
+}
+header {
+    color: #0c4d6f;
+    padding: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+   position: relative;
+   top: 7px;
+
+}
+.nav-bar{
+    background-color: rgb(255, 255, 255, 0.70);
+    border-radius: 40px;
+    padding: 14px;
+    
+}
+header a {
+    font-weight: bold;
+    color: #0c4d6f;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+.sidebar {
+    
+    width: 25%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.50);
+    z-index: 1000;
+    border-radius: 10%;
+    
+}
+
+.content {
+    float: left;
+    width: 70%;
+    padding: 10px;
+
+}
+
+.content h1{
+    font-size: 90px;
+    color: #0c4d6f;
+    height: 220px;
+    margin: 0px;  
+}
+.boton{
+    background-color: rgb(253, 75, 173);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 13px 27px;
+    font: Montserrat;
+}   
+.card{
+background-color: rgb(255, 255, 255,0.70);
+display: flex;
+flex-direction: column;
+width: 380px;
+height: auto;
+padding-top: 12px;
+padding-left: 12px;
+padding-right: 12px;
+border-radius: 20px;
+
+
+
+}
+.card-image{
+max-width: 100%;
+border-radius: 20px;
+}
+.card-container{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    width: 110%;
+
+}
+footer {
+    background-color: rgb(255, 255, 255, 0.60);
+    color: #0c4d6f;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
